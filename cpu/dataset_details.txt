@@ -1,0 +1,39 @@
+Dataset: CoraFull():
+======================
+Number of graphs: 1
+Number of features: 8710
+
+Dataset: DblpFull():
+======================
+Number of graphs: 1
+Number of features: 1639
+
+Dataset: AmazonComputers():
+======================
+Number of graphs: 1
+Number of features: 767
+
+Dataset: PubmedFull():
+======================
+Number of graphs: 1
+Number of features: 500
+
+Dataset: CoauthorPhysics():
+======================
+Number of graphs: 1
+Number of features: 8415
+
+
+Dataset: AIDS700nef(560):
+======================
+Number of graphs: 560
+Number of features: 29
+
+Dataset: Cora():
+======================
+Number of graphs: 1
+Number of features: 1433
+======================
+Data(x=[19793, 8710], edge_index=[2, 126842], y=[19793]) Data(x=[17716, 1639], edge_index=[2, 105734], y=[17716]) Data(x=[13752, 767], edge_index=[2, 491722], y=[13752]) Data(x=[19717, 500], edge_index=[2, 88648], y=[19717]) Data(x=[34493, 8415], edge_index=[2, 495924], y=[34493]) Data(edge_index=[2, 18], i=[1], x=[10, 29], num_nodes=10) Data(x=[17716, 1639], edge_index=[2, 105734], y=[17716]) Data(x=[13752, 767], edge_index=[2, 491722], y=[13752]) Data(x=[19717, 500], edge_index=[2, 88648], y=[19717]) Data(x=[34493, 8415], edge_index=[2, 495924], y=[34493]) Data(edge_index=[2, 18], i=[1], x=[10, 29], num_nodes=10) Data(x=[2708, 1433], edge_index=[2, 10556], y=[2708], train_mask=[2708], val_mask=[2708], test_mask=[2708])
+=====================
+Counter({False: 2568, True: 140}) Counter({False: 2208, True: 500}) Counter({False: 1708, True: 1000})
